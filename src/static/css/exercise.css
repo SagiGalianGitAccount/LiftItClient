@@ -1,0 +1,15 @@
+.exercise-container {
+  background-color: #ffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.exercise-btns-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

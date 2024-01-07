@@ -1,0 +1,27 @@
+/* Import Open Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.explanation-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fffaff;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+    z-index: 2000;
+  }
+
+/* Optionally, you can set different font styles for headings and other elements */
+.explanation-container h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.explanation-container li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}

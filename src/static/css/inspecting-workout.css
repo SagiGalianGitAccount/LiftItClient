@@ -1,0 +1,14 @@
+.inspecting-workout-container{
+    color: black;
+    position: fixed;
+    left: 0;
+    top:  0;
+    width: 100%;
+    height: 100%;
+    background-color: #fffaff;
+    overflow-y: scroll;
+}
+.buttons-inspecting-workout * {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
